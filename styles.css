@@ -66,7 +66,7 @@
   font-family: "Halant";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 30px;
   color: #ffffff;
 }
 
@@ -100,7 +100,7 @@
   display: flex;
   justify-content: space-between;
   padding: 64px 120px;
-  gap: 100px;
+  gap: 50px;
 }
 
 .Dp2 {
@@ -124,7 +124,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 150%;
   text-align: justify;
   letter-spacing: 0.5px;
   color: #000000;
@@ -146,8 +145,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.5px;
   color: #ffffff;
 }
 
@@ -160,10 +157,8 @@
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 150%;
   color: #155eef;
   background-color: #ffffff;
-  margin-left: 8px;
 }
 
 /*FOOTER-CONTAINER*/
