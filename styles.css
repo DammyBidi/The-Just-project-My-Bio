@@ -35,7 +35,9 @@
 }
 
 .home {
-  text-decoration: underline 1px #155eef;
+  border-bottom: 1px solid #155eef;
+  padding: 2px 8px;
+  
 }
 
 /*FIRST-CONTAINER*/
@@ -59,6 +61,7 @@
 
 .detail-1 {
   text-align: justify;
+  
 }
 
 
@@ -89,9 +92,9 @@
 }
 
 
-
 .Dp {
   height: 679px;
+  
 }
 
 /*SECOND-CONTAINER*/
@@ -200,5 +203,11 @@ button {
 }
 
 button:hover {
+  color: white;
   background-color: #3479a7;
+}
+
+.social-logo a :hover {
+    border-bottom: 2px solid #155eef;
+    padding: 3px 8px;
 }
