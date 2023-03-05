@@ -249,6 +249,7 @@ button:hover {
     align-items: center;
     padding: 24px 10px 16px;
     height: auto;
+    gap: 20px;
   }
 
   .image-1 {
@@ -378,7 +379,7 @@ button:hover {
     font-style: normal;
     font-weight: 500;
     font-size: 15.9623px;
-    line-height: 150%;
+    line-height: 145%;
     letter-spacing: 0.498821px;
     color: #ffffff;
   }
