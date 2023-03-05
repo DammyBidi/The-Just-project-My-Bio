@@ -319,6 +319,10 @@ button:hover {
     margin-bottom: 20px;
   }
 
+  .detail-2 {
+    width: 100%;
+  }
+
   .about {
     font-family: "Halant";
     font-style: normal;
