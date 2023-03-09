@@ -202,7 +202,6 @@ body {
 .detail-3 {
   background-color: #ffffff;
   width: 664px;
-  height: 469px;
   z-index: 2;
   padding: 64px 40px;
   gap: 24px;
@@ -461,6 +460,7 @@ button:hover {
     padding: 16px 24px 0px;
     gap: 16px;
     background-color: #E6E6E6;
+    
   
   }
 
@@ -471,6 +471,8 @@ button:hover {
     width: 100%;
     top: 0px;
     left: 0px;
+    padding: 0px;
+
     
   }
 
