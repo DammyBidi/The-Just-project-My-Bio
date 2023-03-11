@@ -5,7 +5,7 @@
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1512px;
   height: auto;
   margin: 0 auto;
 }
@@ -18,6 +18,21 @@ body {
   align-items: center;
   padding: 16px 120px;
   background-color: #F1F5FE;
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1512px;
+}
+
+.logo1 {
+  cursor: grab;
+  transition: transform 1s ease-out 0.3s;
+}
+
+.logo1:hover {
+  transform: rotateX(720deg);
+
 }
 
 .nav {
@@ -39,11 +54,27 @@ body {
   line-height: 150%;
   color: #155eef;
   background-color: #F1F5FE;
+  transition: padding 1s, transform  2s;
+}
+
+.nav button:hover {
+  padding: 10px 24px;
+  color: #ffffff;
+  background-color: #3479a7;
+  transform: rotate(360deg);
+  border-color: #ffffff;
 }
 
 .home {
+  text-decoration: none;
+  color: #000000;
   border-bottom: 1px solid #155eef;
   padding: 2px 8px;
+  transition: padding 1s;
+}
+
+.home:hover { 
+  padding: 2px 40px;
 }
 
 .hamburger {
@@ -58,6 +89,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 56px 120px 0;
+  padding-top: 160px;
 }
 
 .im {
@@ -89,7 +121,16 @@ body {
   border-radius: 8px;
   color: #ffffff;
   border: none;
+  transition: padding 2s ease-out;
 }
+
+.detail-1 button:hover {
+  padding: 10px 90px;
+  background-color: #3479a7;
+  color: #ffffff;
+}
+
+
 
 .about-1 {
   font-family: "Manrope";
@@ -103,6 +144,8 @@ body {
 
 .Dp {
   height: 600px;
+  width: 100%;
+  display: block;
 }
 
 /*SECOND-CONTAINER*/
@@ -162,6 +205,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #F1F5FE;
+  transition: transform 2s ease 0.2s;
+}
+
+.Hire-me2:hover {
+  background-color: #3479a7;
+  transform: rotateX(360deg);
 }
 
 .Resume {
@@ -175,6 +224,14 @@ body {
   font-size: 16px;
   color: #155eef;
   background-color: #F1F5FE;
+  transition: transform 2s linear 0.2s;
+}
+
+.Resume:hover {
+  transform: rotateY(360deg);
+  background-color: #3479a7;
+  color: #F5F8FE;
+  border-color: #ffffff;
 }
 
 /* THIRD-CONTAINER */
@@ -182,17 +239,14 @@ body {
 .third-container {
   background-color: #E6E6E6;
   display: flex;
-  justify-content: center;
-  padding: 96px 120px;
+  justify-content: space-between;
+  padding: 36px 120px 100px;
+  margin-bottom: 30px;
   position: relative;
-  height: 100%;
 }
 
 .image-3 {
   width: 57%;
-  height: 592px;
-  margin-right: 410px;
-  
 }
 
 .imae-3 img {
@@ -201,17 +255,15 @@ body {
 
 .detail-3 {
   background-color: #ffffff;
-  width: 664px;
+  width: 47%;
   z-index: 2;
-  padding: 64px 40px;
+  padding: 54px 40px;
   gap: 24px;
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 30%;
-  left: 700px;
-
-
+  left: 45%;
 }
 
 .detail-3 h2 {
@@ -223,7 +275,6 @@ body {
   text-align: justify;
   letter-spacing: 0.5px;
   color: #141414;
-
 }
 
 .about-3 {
@@ -262,8 +313,6 @@ body {
   text-align: justify;
   letter-spacing: 0.5px;
   color: #525252;
-
-
 }
 
 
@@ -272,19 +321,21 @@ body {
 .footer-container {
   display: flex;
   background-color: #000000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 120px;
 }
 
 .logo2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: grab;
+  transition: transform 1s ease-out 0.3s;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 120px;
+.logo2:hover {
+  transform: rotateZ(720deg);
 }
 
 .social-logo {
@@ -302,16 +353,20 @@ body {
   line-height: 150%;
   letter-spacing: 0.5px;
   color: #ffffff;
+  cursor: grabbing;
+  transition: transform 2s linear 0.3s;
 }
+
+.copyright:hover {
+  border-bottom: 2px solid #155eef;
+  padding: 3px 8px;
+}
+
 
 button {
   cursor: pointer;
 }
 
-button:hover {
-  color: white;
-  background-color: #3479a7;
-}
 
 .social-logo a :hover {
   border-bottom: 2px solid #155eef;
@@ -347,6 +402,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding: 24px 10px 16px;
+    padding-top: 74px;
     height: auto;
     gap: 20px;
   }
@@ -458,7 +514,7 @@ button:hover {
     height: auto;
     justify-content: center;
     padding: 16px 24px 0px;
-    gap: 16px;
+    gap: 10px;
     background-color: #E6E6E6;
     
   
