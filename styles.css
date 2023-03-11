@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 16px 120px;
-  background-color: #F1F5FE;
+  background-color: #f1f5fe;
   position: fixed;
   right: 0;
   left: 0;
@@ -32,7 +32,6 @@ body {
 
 .logo1:hover {
   transform: rotateX(720deg);
-
 }
 
 .nav {
@@ -53,8 +52,8 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #155eef;
-  background-color: #F1F5FE;
-  transition: padding 1s, transform  2s;
+  background-color: #f1f5fe;
+  transition: padding 1s, transform 2s;
 }
 
 .nav button:hover {
@@ -73,7 +72,7 @@ body {
   transition: padding 1s;
 }
 
-.home:hover { 
+.home:hover {
   padding: 2px 40px;
 }
 
@@ -130,8 +129,6 @@ body {
   color: #ffffff;
 }
 
-
-
 .about-1 {
   font-family: "Manrope";
   font-style: normal;
@@ -156,7 +153,7 @@ body {
   align-items: center;
   padding: 64px 120px;
   gap: 80px;
-  background-color: #F5F8FE;
+  background-color: #f5f8fe;
   margin: 30px 0;
 }
 
@@ -204,7 +201,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  color: #F1F5FE;
+  color: #f1f5fe;
   transition: transform 2s ease 0.2s;
 }
 
@@ -223,21 +220,21 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #155eef;
-  background-color: #F1F5FE;
+  background-color: #f1f5fe;
   transition: transform 2s linear 0.2s;
 }
 
 .Resume:hover {
   transform: rotateY(360deg);
   background-color: #3479a7;
-  color: #F5F8FE;
+  color: #f5f8fe;
   border-color: #ffffff;
 }
 
 /* THIRD-CONTAINER */
 
 .third-container {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   display: flex;
   justify-content: space-between;
   padding: 36px 120px 100px;
@@ -267,7 +264,7 @@ body {
 }
 
 .detail-3 h2 {
-  font-family: 'Halant';
+  font-family: "Halant";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -278,7 +275,7 @@ body {
 }
 
 .about-3 {
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -294,7 +291,7 @@ body {
 }
 
 .detail-3 h5 {
-  font-family: 'Halant';
+  font-family: "Halant";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -305,7 +302,7 @@ body {
 }
 
 .senior {
-  font-family: 'Halant';
+  font-family: "Halant";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -314,7 +311,6 @@ body {
   letter-spacing: 0.5px;
   color: #525252;
 }
-
 
 /*FOOTER-CONTAINER*/
 
@@ -362,11 +358,9 @@ body {
   padding: 3px 8px;
 }
 
-
 button {
   cursor: pointer;
 }
-
 
 .social-logo a :hover {
   border-bottom: 2px solid #155eef;
@@ -374,6 +368,7 @@ button {
 }
 
 @media screen and (max-width: 950px) {
+  
   /* Nav-bar */
 
   .nav-bar {
@@ -460,8 +455,6 @@ button {
     color: #a3a3a3;
   }
 
- 
-
   /* Second-container */
 
   .second-container {
@@ -516,16 +509,14 @@ button {
     justify-content: center;
     padding: 16px 15px 0px;
     gap: 10px;
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     margin-bottom: 0px;
-    
-  
   }
 
   .detail-3 {
     position: relative;
     text-align: justify;
-    background-color: #E6E6E6;
+    background-color: #e6e6e6;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -536,9 +527,8 @@ button {
     display: none;
   }
 
-
   .about-3 {
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -550,19 +540,16 @@ button {
   .name-2 {
     display: flex;
     align-items: center;
-  
-    
   }
 
   h5 {
-    font-family: 'Halant';
+    font-family: "Halant";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 150%;
     text-align: justify;
     letter-spacing: 0.5px;
-
   }
 
   /* Footer container */
@@ -588,9 +575,8 @@ button {
     margin-top: 6px;
   }
 
-  .social-logo a :hover{
+  .social-logo a :hover {
     padding: 0px;
-    
   }
 
   .copyright {
