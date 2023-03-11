@@ -513,7 +513,7 @@ button {
   .third-container {
     height: auto;
     justify-content: center;
-    padding: 16px 24px 0px;
+    padding: 16px 15px 0px;
     gap: 10px;
     background-color: #E6E6E6;
     
@@ -549,6 +549,8 @@ button {
 
   .name-2 {
     display: flex;
+    align-items: center;
+  
     
   }
 
