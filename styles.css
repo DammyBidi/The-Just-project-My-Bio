@@ -8,6 +8,7 @@ body {
   max-width: 1512px;
   height: auto;
   margin: 0 auto;
+  position: relative;
 }
 
 /*NAR-BAR*/
@@ -367,6 +368,23 @@ button {
   padding: 3px 8px;
 }
 
+.arrow {
+  position: absolute;
+  bottom: 8%;
+  right: 0.3%;
+  z-index: 2;
+  animation-name: arrow;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes arrow {
+ from {bottom:8.4%;}
+ to {bottom: 8%;}
+}
+
+
 @media screen and (max-width: 950px) {
   
   /* Nav-bar */
@@ -499,7 +517,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: space-around;
     margin: 1rem auto;
+    
   }
 
   /* Third container */
@@ -520,7 +540,7 @@ button {
     width: 100%;
     top: 0px;
     left: 0px;
-    padding: 0px;
+    padding: 10px 0;
   }
 
   .image-3 {
@@ -588,4 +608,22 @@ button {
     letter-spacing: 0.498821px;
     color: #ffffff;
   }
+
+  .arrow {
+    width: 54px;
+    bottom: 7%;
+    
+  }
+
+  
+@keyframes arrow {
+  from {bottom:7.4%;}
+  to {bottom: 7%;}
+ }
+
+  .arrow img {
+    width: 100%;
+  }
+
+
 }
